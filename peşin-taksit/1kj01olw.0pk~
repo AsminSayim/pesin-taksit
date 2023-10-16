@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace peşin_taksit
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double fiyat=Convert.ToDouble(txtFiyat.Text);
+            double toplamtutar=0, taksittutar=0;
+
+            if (rb0.Checked)
+            {
+                toplamtutar = fiyat;
+            }
+            else if (rb2.Checked)
+            {
+                toplamtutar = fiyat * 1.02;
+            }
+            else if (rb6.Checked)
+            {
+                toplamtutar = fiyat * 1.04;
+            }
+            else if (rb9.Checked)
+            {
+                toplamtutar = fiyat * 1.07;
+            }
+            else
+            {
+                toplamtutar = fiyat * 1.10;
+            }
+
+            lblToplam.Text = "Toplam Tutar:" + toplamtutar.ToString();
+            lblTaksit.Text = "Taksit Tutar:" + taksittutar.ToString();
+
+        }
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\bin\Debug\peşin-taksit.exe.config
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\bin\Debug\peşin-taksit.exe
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\bin\Debug\peşin-taksit.pdb
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin_taksit.Form1.resources
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin_taksit.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.exe
+C:\Users\User\Desktop\KORUMASIZ\ntpörnekler\peşin-taksit\peşin-taksit\obj\Debug\peşin-taksit.pdb

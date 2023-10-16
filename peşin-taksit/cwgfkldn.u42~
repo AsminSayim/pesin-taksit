@@ -1,0 +1,230 @@
+﻿namespace peşin_taksit
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rb0 = new System.Windows.Forms.RadioButton();
+            this.rb2 = new System.Windows.Forms.RadioButton();
+            this.rb6 = new System.Windows.Forms.RadioButton();
+            this.rb9 = new System.Windows.Forms.RadioButton();
+            this.rb12 = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtFiyat = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblToplam = new System.Windows.Forms.Label();
+            this.lblTaksit = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rb12);
+            this.groupBox1.Controls.Add(this.rb9);
+            this.groupBox1.Controls.Add(this.rb6);
+            this.groupBox1.Controls.Add(this.rb2);
+            this.groupBox1.Controls.Add(this.rb0);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(150, 179);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Seçim Yap";
+            // 
+            // rb0
+            // 
+            this.rb0.AutoSize = true;
+            this.rb0.Location = new System.Drawing.Point(17, 32);
+            this.rb0.Name = "rb0";
+            this.rb0.Size = new System.Drawing.Size(95, 20);
+            this.rb0.TabIndex = 0;
+            this.rb0.TabStop = true;
+            this.rb0.Text = "Peşin(%0)";
+            this.rb0.UseVisualStyleBackColor = true;
+            // 
+            // rb2
+            // 
+            this.rb2.AutoSize = true;
+            this.rb2.Location = new System.Drawing.Point(17, 55);
+            this.rb2.Name = "rb2";
+            this.rb2.Size = new System.Drawing.Size(111, 20);
+            this.rb2.TabIndex = 1;
+            this.rb2.TabStop = true;
+            this.rb2.Text = "2 Taksit(%2)";
+            this.rb2.UseVisualStyleBackColor = true;
+            // 
+            // rb6
+            // 
+            this.rb6.AutoSize = true;
+            this.rb6.Location = new System.Drawing.Point(17, 78);
+            this.rb6.Name = "rb6";
+            this.rb6.Size = new System.Drawing.Size(111, 20);
+            this.rb6.TabIndex = 2;
+            this.rb6.TabStop = true;
+            this.rb6.Text = "6 Taksit(%4)";
+            this.rb6.UseVisualStyleBackColor = true;
+            // 
+            // rb9
+            // 
+            this.rb9.AutoSize = true;
+            this.rb9.Location = new System.Drawing.Point(17, 101);
+            this.rb9.Name = "rb9";
+            this.rb9.Size = new System.Drawing.Size(112, 20);
+            this.rb9.TabIndex = 3;
+            this.rb9.TabStop = true;
+            this.rb9.Text = "9 Taksir(%7)";
+            this.rb9.UseVisualStyleBackColor = true;
+            // 
+            // rb12
+            // 
+            this.rb12.AutoSize = true;
+            this.rb12.Location = new System.Drawing.Point(17, 124);
+            this.rb12.Name = "rb12";
+            this.rb12.Size = new System.Drawing.Size(131, 20);
+            this.rb12.TabIndex = 4;
+            this.rb12.TabStop = true;
+            this.rb12.Text = "12 Taksit (%10)";
+            this.rb12.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtFiyat);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.Location = new System.Drawing.Point(207, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(220, 144);
+            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Bilgi Girişi";
+            // 
+            // txtFiyat
+            // 
+            this.txtFiyat.Location = new System.Drawing.Point(80, 53);
+            this.txtFiyat.Name = "txtFiyat";
+            this.txtFiyat.Size = new System.Drawing.Size(100, 22);
+            this.txtFiyat.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(80, 87);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 34);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Hesapla";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(16, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 16);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Fiyat";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.lblToplam);
+            this.groupBox3.Controls.Add(this.lblTaksit);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox3.Location = new System.Drawing.Point(207, 190);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(220, 98);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Çıkış";
+            // 
+            // lblToplam
+            // 
+            this.lblToplam.AutoSize = true;
+            this.lblToplam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplam.Location = new System.Drawing.Point(16, 30);
+            this.lblToplam.Name = "lblToplam";
+            this.lblToplam.Size = new System.Drawing.Size(100, 16);
+            this.lblToplam.TabIndex = 5;
+            this.lblToplam.Text = "Toplam Tutar";
+            // 
+            // lblTaksit
+            // 
+            this.lblTaksit.AutoSize = true;
+            this.lblTaksit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTaksit.Location = new System.Drawing.Point(26, 55);
+            this.lblTaksit.Name = "lblTaksit";
+            this.lblTaksit.Size = new System.Drawing.Size(90, 16);
+            this.lblTaksit.TabIndex = 4;
+            this.lblTaksit.Text = "Taksit Tutar";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(481, 325);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rb12;
+        private System.Windows.Forms.RadioButton rb9;
+        private System.Windows.Forms.RadioButton rb6;
+        private System.Windows.Forms.RadioButton rb2;
+        private System.Windows.Forms.RadioButton rb0;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtFiyat;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label lblToplam;
+        private System.Windows.Forms.Label lblTaksit;
+    }
+}
+
